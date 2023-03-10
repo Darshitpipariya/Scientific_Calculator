@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('git pull'){
             steps{
-                git branch:'master' url:'https://github.com/Darshitpipariya/Scientific_Calculator'
+                git branch:'master', url:'https://github.com/Darshitpipariya/Scientific_Calculator'
             }
         }
         stage('maven build') {
