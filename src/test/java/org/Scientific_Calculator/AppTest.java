@@ -1,38 +1,20 @@
 package org.Scientific_Calculator;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
+public class AppTest
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+    App obj=new App();
+    @Test
+    public void factorialTruePositive(){
+        assertEquals("Finding factorial of a number for True Positive",120,obj.factorial(5));
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
+        assertEquals("Finding factorial of a number for True Positive",24,obj.factorial(4));    }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
 }
