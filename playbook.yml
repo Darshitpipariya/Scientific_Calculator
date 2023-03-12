@@ -2,8 +2,7 @@
 - name : pull docker image of scientific calculator
   hosts : all
   tasks :
-    - name: export
-      shell: export LC_ALL=en_IN.UTF-8
+
     - name : Start docker service
       service:
         name: docker
