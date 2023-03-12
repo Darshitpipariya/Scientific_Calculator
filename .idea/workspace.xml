@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="added inventory and playbook.yml files">
+    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="updated playbook.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +83,7 @@
       <workItem from="1678451011474" duration="3897000" />
       <workItem from="1678455489274" duration="1161000" />
       <workItem from="1678457608425" duration="3036000" />
-      <workItem from="1678635996606" duration="2182000" />
+      <workItem from="1678635996606" duration="3312000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677502330723</created>
@@ -119,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678637728043</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated Jenkinsfile">
+      <created>1678638230944</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678638230944</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated playbook.yml">
+      <created>1678638456016</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678638456016</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +145,8 @@
     <MESSAGE value="Modified Jenkinsfile" />
     <MESSAGE value="added ducker push stage to pipeline" />
     <MESSAGE value="added inventory and playbook.yml files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added inventory and playbook.yml files" />
+    <MESSAGE value="updated Jenkinsfile" />
+    <MESSAGE value="updated playbook.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated playbook.yml" />
   </component>
 </project>
