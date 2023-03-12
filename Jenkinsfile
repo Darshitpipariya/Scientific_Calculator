@@ -36,6 +36,7 @@ pipeline{
 
         stage('Deploy and Run Image using Ansible'){
             steps {
+                sh 'export LC_ALL=en_IN.UTF-8'
                 ansiblePlaybook becomeUser: 'ansible_usr', colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'playbook.yml', sudoUser: 'ansible_usr'
             }
         }
