@@ -1,0 +1,14 @@
+---
+- name : pull docker image of scientific calculator
+  hosts : all
+  tasks :
+    - name : Start docker service
+      service:
+        name: docker
+        state: started
+
+    - name : pull docker image
+      shell : docker pull darshitpipariya/scintific_cal:latest
+
+    - name : running calculator container
+      shell : docker run -it -d darshitpipariya/scintific_cal:latest /bin/bash

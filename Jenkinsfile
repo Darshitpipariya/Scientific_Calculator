@@ -28,6 +28,18 @@ pipeline{
             }
         }
 
+        stage('Clean Docker Images') {
+            steps {
+                sh 'docker rmi -f darshitpipariya/scintific_cal:latest'
+            }
+        }
+
+        stage('Deploy and Run Image using Ansible'){
+            steps {
+                ansiblePlaybook becomeUser: 'ansible_usr', colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'playbook.yml', sudoUser: 'ansible_usr'
+            }
+        }
+
     }
 
 }
