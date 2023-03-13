@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="updated Jenkinsfile" />
+    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="updated playbook.yml">
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,22 +218,51 @@
       <option name="project" value="LOCAL" />
       <updated>1678728237040</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="updated playbook.yml">
+      <created>1678729560261</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678729560261</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Modified Jenkinsfile" />
     <MESSAGE value="added ducker push stage to pipeline" />
     <MESSAGE value="added inventory and playbook.yml files" />
-    <MESSAGE value="updated playbook.yml" />
     <MESSAGE value="updated Invetory file" />
     <MESSAGE value="Updated Pom.xml with log dependency and build configuration&#10;added log4j2.xml &#10;and added Square root functionality" />
     <MESSAGE value="updated Dockerfile" />
     <MESSAGE value="updated Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Jenkinsfile" />
+    <MESSAGE value="updated playbook.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated playbook.yml" />
   </component>
 </project>
