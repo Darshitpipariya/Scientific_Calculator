@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="updated Invetory file">
-      <change afterPath="$PROJECT_DIR$/calculator.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Scientific_Calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Scientific_Calculator/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Scientific_Calculator/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Scientific_Calculator/AppTest.java" afterDir="false" />
+    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="Updated Pom.xml with log dependency and build configuration&#10;added log4j2.xml &#10;and added Square root functionality">
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <workItem from="1678455489274" duration="1161000" />
       <workItem from="1678457608425" duration="3036000" />
       <workItem from="1678635996606" duration="5138000" />
-      <workItem from="1678692410647" duration="11219000" />
+      <workItem from="1678692410647" duration="11535000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677502330723</created>
@@ -196,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678723845594</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updated Pom.xml with log dependency and build configuration&#10;added log4j2.xml &#10;and added Square root functionality">
+      <created>1678727318518</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678727318519</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +211,7 @@
     <MESSAGE value="updated playbook.yml" />
     <MESSAGE value="updated Jenkinsfile" />
     <MESSAGE value="updated Invetory file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Invetory file" />
+    <MESSAGE value="Updated Pom.xml with log dependency and build configuration&#10;added log4j2.xml &#10;and added Square root functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Pom.xml with log dependency and build configuration&#10;added log4j2.xml &#10;and added Square root functionality" />
   </component>
 </project>
