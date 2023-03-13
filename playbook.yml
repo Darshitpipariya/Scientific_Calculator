@@ -50,4 +50,4 @@
       shell : docker pull darshitpipariya/scintific_cal:latest
 
     - name : running calculator container
-      shell : docker run -it -d --name cal darshitpipariya/scintific_cal:latest
+      shell : docker run -it -d darshitpipariya/scintific_cal:latest
