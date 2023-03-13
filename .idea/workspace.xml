@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="updated Invetory file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <workItem from="1678455489274" duration="1161000" />
       <workItem from="1678457608425" duration="3036000" />
       <workItem from="1678635996606" duration="5138000" />
-      <workItem from="1678692410647" duration="4294000" />
+      <workItem from="1678692410647" duration="5056000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677502330723</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678701203276</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated Invetory file">
+      <created>1678718112378</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678718112378</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,6 +1,9 @@
 ---
 - name : pull docker image of scientific calculator
   hosts : all
+  become: true
+  become_method: sudo
+
   tasks :
     - name: Install aptitude
       apt:
