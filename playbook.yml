@@ -45,9 +45,8 @@
         name: docker
 
 
-
     - name : pull docker image
       shell : docker pull darshitpipariya/scintific_cal:latest
 
     - name : running calculator container
-      shell : docker run -it -d darshitpipariya/scintific_cal:latest
+      shell : docker run --rm -it -v ${PWD}/log:/log -d darshitpipariya/scintific_cal:latest
