@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="ADDED FACTORIAL FUNCTIONALITY">
+    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="updated FACTORIAL FUNCTIONALITY&#10;and added NATURAL LOGARITHM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Scientific_Calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Scientific_Calculator/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/Scientific_Calculator/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Scientific_Calculator/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AppTest.powerTruePositive">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Scientific_Calculator.App" />
       <module name="Scientific_Calculator" />
@@ -77,8 +79,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Scientific_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Scientific_Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Scientific_Calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.Scientific_Calculator.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.logTruePositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Scientific_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Scientific_Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Scientific_Calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.Scientific_Calculator.AppTest" />
+      <option name="METHOD_NAME" value="logTruePositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.powerTruePositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Scientific_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Scientific_Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Scientific_Calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.Scientific_Calculator.AppTest" />
+      <option name="METHOD_NAME" value="powerTruePositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.powerTruePositive" />
+        <item itemvalue="JUnit.AppTest.logTruePositive" />
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -99,7 +151,7 @@
       <workItem from="1678635996606" duration="5138000" />
       <workItem from="1678692410647" duration="12580000" />
       <workItem from="1678767273374" duration="2853000" />
-      <workItem from="1678771677094" duration="2694000" />
+      <workItem from="1678771677094" duration="4629000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677502330723</created>
@@ -262,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678815411149</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updated FACTORIAL FUNCTIONALITY&#10;and added NATURAL LOGARITHM">
+      <created>1678816059651</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678816059651</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +361,7 @@
     <MESSAGE value="updated Jenkinsfile" />
     <MESSAGE value="updated playbook.yml for connecting logfile of docker container to client machine" />
     <MESSAGE value="ADDED FACTORIAL FUNCTIONALITY" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED FACTORIAL FUNCTIONALITY" />
+    <MESSAGE value="updated FACTORIAL FUNCTIONALITY&#10;and added NATURAL LOGARITHM" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated FACTORIAL FUNCTIONALITY&#10;and added NATURAL LOGARITHM" />
   </component>
 </project>
