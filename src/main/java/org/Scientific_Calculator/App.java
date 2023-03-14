@@ -15,11 +15,13 @@ public class App
     {
         App app=new App();
         Scanner sc=new Scanner(System.in);
-        double num1,num2;
+
         do{
             System.out.println("Scientific Calculator ,Choose to perform Operation");
-            System.out.println("1: Square root function\n");
+            System.out.println("1: Square root\n2: Factorial");
             int choice;
+            int n;
+            double num1,num2;
             try{
                 choice= sc.nextInt();
             }catch (InputMismatchException e){
@@ -33,6 +35,13 @@ public class App
                     System.out.println("Square root of "+num1+" is "+app.squareRoot(num1));
                     System.out.println("");
                     break;
+                case 2:
+                    //Factorial function
+                    System.out.println("Enter the number : ");
+                    n=sc.nextInt();
+                    System.out.println("Factorial of "+n+" is "+app.factorial(n));
+                    System.out.println("");
+                    break;
                 default:
                     System.out.println("Exit");
                     return;
@@ -42,10 +51,16 @@ public class App
     public double squareRoot(double num1){
         logger.info("[SQUARE ROOT] - "+num1);
         double result=Math.sqrt(num1);
-        logger.info("[SQUARE ROOT] - "+num1);
+        logger.info("[SQUARE ROOT RESULT] - "+result);
         return result;
     }
     public int factorial(int n){
+        logger.info("[FACTORIAL OF] - "+n);
+        int result=factorialCal(n);
+        logger.info("[FACTORIAL RESULT] - "+n);
+        return result;
+    }
+    public int factorialCal(int n){
         if(n==1){
             return 1;
         }
