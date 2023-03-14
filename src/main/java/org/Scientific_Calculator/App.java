@@ -18,7 +18,7 @@ public class App
 
         do{
             System.out.println("Scientific Calculator ,Choose to perform Operation");
-            System.out.println("1: Square root\n2: Factorial");
+            System.out.println("1: Square root\n2: Factorial\n3: Natural logarithm");
             int choice;
             int n;
             double num1,num2;
@@ -42,6 +42,13 @@ public class App
                     System.out.println("Factorial of "+n+" is "+app.factorial(n));
                     System.out.println("");
                     break;
+                case 3:
+                    //Natural log function
+                    System.out.println("Enter the number : ");
+                    num1=sc.nextDouble();
+                    System.out.println("Natural log of "+num1+" is "+app.naturalLog(num1));
+                    System.out.println("");
+                    break;
                 default:
                     System.out.println("Exit");
                     return;
@@ -57,13 +64,19 @@ public class App
     public int factorial(int n){
         logger.info("[FACTORIAL OF] - "+n);
         int result=factorialCal(n);
-        logger.info("[FACTORIAL RESULT] - "+n);
+        logger.info("[FACTORIAL RESULT] - "+result);
+        return result;
+    }
+    public double naturalLog(double n){
+        logger.info("[NATURAL LOGARITHM OF] - "+n);
+        double result=Math.log(n);
+        logger.info("[NATURAL LOGARITHM RESULT] - "+result);
         return result;
     }
     public int factorialCal(int n){
         if(n==1){
             return 1;
         }
-        return n*factorial(n-1);
+        return n*factorialCal(n-1);
     }
 }

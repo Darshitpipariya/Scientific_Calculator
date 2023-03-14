@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="updated playbook.yml for connecting logfile of docker container to client machine">
+    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="ADDED FACTORIAL FUNCTIONALITY">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Scientific_Calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Scientific_Calculator/App.java" afterDir="false" />
     </list>
@@ -99,7 +99,7 @@
       <workItem from="1678635996606" duration="5138000" />
       <workItem from="1678692410647" duration="12580000" />
       <workItem from="1678767273374" duration="2853000" />
-      <workItem from="1678771677094" duration="1901000" />
+      <workItem from="1678771677094" duration="2694000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677502330723</created>
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678772790249</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="ADDED FACTORIAL FUNCTIONALITY">
+      <created>1678815411149</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678815411149</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +301,7 @@
     <MESSAGE value="updated playbook.yml" />
     <MESSAGE value="updated Jenkinsfile" />
     <MESSAGE value="updated playbook.yml for connecting logfile of docker container to client machine" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated playbook.yml for connecting logfile of docker container to client machine" />
+    <MESSAGE value="ADDED FACTORIAL FUNCTIONALITY" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED FACTORIAL FUNCTIONALITY" />
   </component>
 </project>
