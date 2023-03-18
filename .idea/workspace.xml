@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="trigger">
+    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="last">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.AppTest.powerTruePositive">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Scientific_Calculator.App" />
       <module name="Scientific_Calculator" />
@@ -128,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.powerTruePositive" />
         <item itemvalue="JUnit.AppTest.logTruePositive" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +154,7 @@
       <workItem from="1678771677094" duration="4949000" />
       <workItem from="1678875132955" duration="511000" />
       <workItem from="1678896628520" duration="612000" />
+      <workItem from="1679136943099" duration="2587000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677502330723</created>
@@ -337,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678818138089</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="last">
+      <created>1679137869166</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679137869166</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +389,7 @@
     <MESSAGE value="updated FACTORIAL FUNCTIONALITY&#10;and added NATURAL LOGARITHM" />
     <MESSAGE value="added power function and test cases for al functionalities" />
     <MESSAGE value="trigger" />
-    <option name="LAST_COMMIT_MESSAGE" value="trigger" />
+    <MESSAGE value="last" />
+    <option name="LAST_COMMIT_MESSAGE" value="last" />
   </component>
 </project>

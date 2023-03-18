@@ -15,7 +15,8 @@ public class App
     {
         App app=new App();
         Scanner sc=new Scanner(System.in);
-
+        System.out.println("Press any key to start application");
+        sc.next();
         do{
             System.out.println("Scientific Calculator ,Choose to perform Operation");
             System.out.println("1: Square root\n" +

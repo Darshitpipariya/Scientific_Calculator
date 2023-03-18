@@ -60,3 +60,5 @@
 2023-03-14 23:45:04.779 [main] INFO  org.Scientific_Calculator.App - [ 10.0 POWER OF 5.0 RESULT] - 9765625.0
 2023-03-14 23:45:21.359 [main] INFO  org.Scientific_Calculator.App - [ 5.0 POWER OF 4.0]
 2023-03-14 23:45:21.359 [main] INFO  org.Scientific_Calculator.App - [ 5.0 POWER OF 4.0 RESULT] - 1024.0
+2023-03-18 18:40:24.193 [main] INFO  org.Scientific_Calculator.App - [SQUARE ROOT] - 1234.0
+2023-03-18 18:40:24.196 [main] INFO  org.Scientific_Calculator.App - [SQUARE ROOT RESULT] - 35.12833614050059
