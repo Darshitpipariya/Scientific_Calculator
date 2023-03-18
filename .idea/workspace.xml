@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="updated FACTORIAL FUNCTIONALITY&#10;and added NATURAL LOGARITHM">
+    <list default="true" id="b6ad1469-2282-4a24-a7f1-c81f97c9074a" name="Changes" comment="trigger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Scientific_Calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Scientific_Calculator/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Scientific_Calculator/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Scientific_Calculator/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +39,16 @@
     </option>
   </component>
   <component name="ProjectId" id="2MK2ycqTj8IrlnIrhfZhJ0rkm8N" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -151,7 +151,9 @@
       <workItem from="1678635996606" duration="5138000" />
       <workItem from="1678692410647" duration="12580000" />
       <workItem from="1678767273374" duration="2853000" />
-      <workItem from="1678771677094" duration="4629000" />
+      <workItem from="1678771677094" duration="4949000" />
+      <workItem from="1678875132955" duration="511000" />
+      <workItem from="1678896628520" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677502330723</created>
@@ -321,7 +323,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678816059651</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added power function and test cases for al functionalities">
+      <created>1678818025420</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678818025420</updated>
+    </task>
+    <task id="LOCAL-00026" summary="trigger">
+      <created>1678818138089</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678818138089</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +366,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Modified Jenkinsfile" />
     <MESSAGE value="added ducker push stage to pipeline" />
@@ -362,6 +379,8 @@
     <MESSAGE value="updated playbook.yml for connecting logfile of docker container to client machine" />
     <MESSAGE value="ADDED FACTORIAL FUNCTIONALITY" />
     <MESSAGE value="updated FACTORIAL FUNCTIONALITY&#10;and added NATURAL LOGARITHM" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated FACTORIAL FUNCTIONALITY&#10;and added NATURAL LOGARITHM" />
+    <MESSAGE value="added power function and test cases for al functionalities" />
+    <MESSAGE value="trigger" />
+    <option name="LAST_COMMIT_MESSAGE" value="trigger" />
   </component>
 </project>
