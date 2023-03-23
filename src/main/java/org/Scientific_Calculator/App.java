@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 public class App 
 {
-    private static final Logger logger =LogManager.getLogger(App.class);
+    private static final Logger logger =LogManager.getLogger("calculator");
     public App(){
 
     }
@@ -70,27 +70,23 @@ public class App
         }while (true);
     }
     public double squareRoot(double num1){
-        logger.info("[SQUARE ROOT] - "+num1);
         double result=Math.sqrt(num1);
-        logger.info("[SQUARE ROOT RESULT] - "+result);
+        logger.info(" - [SQUARE] ROOT of "+num1+" - [RESULT] : "+ result);
         return result;
     }
     public int factorial(int n){
-        logger.info("[FACTORIAL OF] - "+n);
         int result=factorialCal(n);
-        logger.info("[FACTORIAL RESULT] - "+result);
+        logger.info(" - [FACTORIAL] of "+n+" - [RESULT] : "+ result);
         return result;
     }
     public double naturalLog(double n){
-        logger.info("[NATURAL LOGARITHM OF] - "+n);
         double result=Math.log(n);
-        logger.info("[NATURAL LOGARITHM RESULT] - "+result);
+        logger.info(" - [NATURAL LOG] of "+n+" - [RESULT] : "+ result);
         return result;
     }
     public double power(double n,double p){
-        logger.info("[ "+p+" POWER OF "+n+"]");
         double result=Math.pow(n,p);
-        logger.info("[ "+p+" POWER OF "+n+" RESULT] - "+result);
+        logger.info(" - [POWER] of "+n+" AND "+p+" - [RESULT] : "+ result);
         return result;
     }
     public int factorialCal(int n){
