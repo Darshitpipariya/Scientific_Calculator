@@ -17,20 +17,20 @@ pipeline{
         }
         stage('Build Docker Image'){
             steps{
-                sh 'docker build -t darshitpipariya/scintific_cal:latest .'
+                sh 'docker build -t darshitpipariya/scintific_cal:1.0 .'
             }
         }
         stage('pushing image to dockerhub'){
             steps{
                 sh 'echo $dockerhub_PSW | docker login -u $dockerhub_USR --password-stdin'
-                sh 'docker push darshitpipariya/scintific_cal:latest '
+                sh 'docker push darshitpipariya/scintific_cal:1.0 '
 
             }
         }
 
         stage('Clean Docker Images') {
             steps {
-                sh 'docker rmi -f darshitpipariya/scintific_cal:latest'
+                sh 'docker rmi -f darshitpipariya/scintific_cal:1.0'
             }
         }
 
